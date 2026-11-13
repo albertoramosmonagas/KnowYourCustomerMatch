@@ -9,7 +9,3 @@
 | ***Activities/Steps*** | **Starts when:** The customer application server makes a request to the KYC service (API) to confirm user identity.<br>**Ends when:** The MNO service returns matching result for each attribute of the customer identity.<br> |
 | ***Post-conditions*** | The application developer can make decision to use this customer data to follow-up enterprise processes|
 | ***Exceptions*** | Several exceptions might occur during the KYC Match API operations:<br><ul><li>Unauthorized: Not valid credentials (e.g. use of already expired access token).</li><li>Not Found: The number provided is not managed by the MNO</li><li>Invalid input: Not all mandatory  input data to invoke operation (e.g. phone number).</li></ul>|
-
-**Overall flow of KYC Match**
-
-![Overall flow of KYC Match](assets/kyc-match_flow.png)
